@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPVerifier-React", "IPVerifier-React\IPVerifier-React.csproj", "{1ADB0FDE-910C-44F1-8F77-0F9BB4E51536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPVerifier-React.Tests", "IPVerifier-React.Tests\IPVerifier-React.Tests.csproj", "{8A1F4900-B90C-4F9B-AABC-4FDF59646C0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ADB0FDE-910C-44F1-8F77-0F9BB4E51536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADB0FDE-910C-44F1-8F77-0F9BB4E51536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADB0FDE-910C-44F1-8F77-0F9BB4E51536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADB0FDE-910C-44F1-8F77-0F9BB4E51536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1F4900-B90C-4F9B-AABC-4FDF59646C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1F4900-B90C-4F9B-AABC-4FDF59646C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1F4900-B90C-4F9B-AABC-4FDF59646C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1F4900-B90C-4F9B-AABC-4FDF59646C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45BC29A0-D346-495E-B84D-E66D31665903}
+	EndGlobalSection
+EndGlobal
