@@ -11,6 +11,7 @@
   "author": "Chris Folmar",
   "license": "MIT",
   "dependencies": {
+    "google-maps-react": "^2.0.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-google-maps": "^9.4.5",

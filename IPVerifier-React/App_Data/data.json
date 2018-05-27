@@ -1,0 +1,55 @@
+{
+   "ip":{
+      "time_zone":"Europe/Paris",
+      "city":"",
+      "continent_geoname_id":6255148,
+      "region":"",
+      "accuracy_radius":1000,
+      "latitude":48.8582,
+      "region_geoname_id":-1,
+      "region_names":{
+
+      },
+      "postal":"",
+      "longitude":2.3387000000000002,
+      "as":{
+         "networks":[
+            "9.9.9.0/24",
+            "149.112.112.0/24",
+            "149.112.149.0/24"
+         ],
+         "name":"QUAD9-AS-1 - Quad9",
+         "asn":"19281",
+         "country":"US"
+      },
+      "address":"9.9.9.9",
+      "continent":"EU",
+      "country_names":{
+         "en":"France",
+         "pt-BR":"França",
+         "fr":"France",
+         "ja":"フランス共和国",
+         "de":"Frankreich",
+         "zh-CN":"法国",
+         "es":"Francia",
+         "ru":"Франция"
+      },
+      "city_names":{
+
+      },
+      "hostname":"",
+      "country_geoname_id":3017382,
+      "country":"FR",
+      "continent_names":{
+         "en":"Europe",
+         "pt-BR":"Europa",
+         "fr":"Europe",
+         "ja":"ヨーロッパ",
+         "de":"Europa",
+         "zh-CN":"欧洲",
+         "es":"Europa",
+         "ru":"Европа"
+      },
+      "city_geoname_id":-1
+   }
+}

@@ -19,11 +19,13 @@ const MyMapComponent = compose(
     withScriptjs,
     withGoogleMap
 )(props => (
-    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
+    <GoogleMap defaultZoom={10} defaultCenter={{ lat: 48.8582, lng: 2.3387000000000002 }}>
         {props.isMarkerShown && (
-            <Marker position={{ lat: -34.397, lng: 150.644 }} />
+            <Marker position={{ lat: 48.8582, lng: 2.3387000000000002 }} />
         )}
     </GoogleMap>
 ));
 
 ReactDOM.render(<MyMapComponent isMarkerShown />, document.getElementById("root"));
+
+

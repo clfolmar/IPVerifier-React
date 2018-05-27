@@ -39,3 +39,4 @@ C:\Users\cfolm\source\repos\IPVerifier-React\IPVerifier-React\bin\Microsoft.AI.W
 C:\Users\cfolm\source\repos\IPVerifier-React\IPVerifier-React\obj\Debug\IPVerifier-React.csproj.CoreCompileInputs.cache
 C:\Users\cfolm\source\repos\IPVerifier-React\IPVerifier-React\obj\Debug\IPVerifier-React.dll
 C:\Users\cfolm\source\repos\IPVerifier-React\IPVerifier-React\obj\Debug\IPVerifier-React.pdb
+C:\Users\cfolm\source\repos\IPVerifier-React\IPVerifier-React\obj\Debug\IPVerifier-React.csprojResolveAssemblyReference.cache

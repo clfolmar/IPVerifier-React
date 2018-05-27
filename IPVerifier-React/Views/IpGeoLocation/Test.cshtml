@@ -1,0 +1,126 @@
+﻿@model IPVerifier_React.Models.ViewModels.IpGeoLocationViewModel
+
+@{
+    ViewBag.Title = "Test Results";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Test</h2>
+
+<div id="root"></div>
+<div class="container search-container">
+    <div class="col-sm-10">
+        <div class="row">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <h4>Ip GeoLocation Data</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IsBadIp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsBadIp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Continent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Continent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AutonomousSystemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AutonomousSystemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReverseHostName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReverseHostName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeZone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeZone)
+        </dd>
+
+    </dl>
+</div>
+
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@
+
+@section scripts {
+
+    <script src="~/Scripts/React/dist/bundle.js"></script>
+}
