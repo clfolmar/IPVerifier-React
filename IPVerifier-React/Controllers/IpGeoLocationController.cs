@@ -55,5 +55,28 @@ namespace IPVerifier_React.Controllers
 
             return View(model);
         }
+
+        // GET: IpGeoLocation
+        public async Task<ActionResult> SSRTest()
+        {
+            IpGeoLocation response = await _service.VerifyIpTest();
+
+            IpGeoLocationViewModel model = new IpGeoLocationViewModel
+            {
+                AutonomousSystemName = response.IpGeoLocationData.As.Name,
+                IsBadIp = false, //TODO: DOUBLE CHECK THIS
+                City = response.IpGeoLocationData.City,
+                Continent = response.IpGeoLocationData.Continent,
+                Country = response.IpGeoLocationData.Country,
+                Latitude = response.IpGeoLocationData.Latitude,
+                Longitude = response.IpGeoLocationData.Longitude,
+                PostalCode = response.IpGeoLocationData.Postal,
+                Region = response.IpGeoLocationData.Region,
+                ReverseHostName = response.IpGeoLocationData.Hostname,
+                TimeZone = response.IpGeoLocationData.Time_Zone
+            };
+
+            return Json(model, JsonRequestBehavior.AllowGet);
+        }
     }
 }

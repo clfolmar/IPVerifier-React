@@ -8,6 +8,34 @@ import {
     Marker
 } from "react-google-maps";
 
+class MapComponent extends react.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            lat: defaultLat,
+            lng: defaultLng
+        }; // add fields here you need from state which is set in componentDidMount()
+    }
+    
+    componentDidMount() {
+        fetch('https://api.apility.net/geoip/9.9.9.9?token=4c3af26b-44a7-41ee-8505-6b2a9b7e81b8')
+        .then(res => {
+            this.setState({ data: res.data })}) // setState to the returned json data from api call above
+            .catch(err => console.err(err));
+    }
+
+    render() {
+        return (
+            <GoogleMap defaultZoom={10} defaultCenter={{ lat: this.state.defaultLat, lng: this.state.defaultLng }}>
+                <Marker position={{ lat: this.state.defaultLat, lng: this.state.defaultLng }} />
+            </GoogleMap>
+        );
+    }
+}
+
+//ReactDOM.render(<MapComponent />, document.getElementById("root"));
+
 const MyMapComponent = compose(
     withProps({
         googleMapURL:
@@ -27,5 +55,3 @@ const MyMapComponent = compose(
 ));
 
 ReactDOM.render(<MyMapComponent isMarkerShown />, document.getElementById("root"));
-
-
