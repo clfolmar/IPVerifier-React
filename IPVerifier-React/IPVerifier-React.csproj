@@ -176,6 +176,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\React\app.js" />
+    <Content Include="Scripts\React\Container.js" />
     <Content Include="Scripts\React\dist\bundle.js" />
     <Content Include="Scripts\React\webpack.config.js" />
     <Content Include="Scripts\respond.js" />
@@ -197,7 +198,6 @@
     <Content Include="Scripts\React\package.json" />
     <Content Include="Views\Home\React.cshtml" />
     <Content Include="Views\IpGeoLocation\Test.cshtml" />
-    <Content Include="Scripts\React\.eslintrc" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
